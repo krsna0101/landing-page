@@ -1,0 +1,184 @@
+.container1-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links {
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+a {
+    text-decoration: none;
+    color: azure;
+}
+
+.container1 {
+    background-color: #1F2937;
+    height: 450px;
+}
+
+.container1-2 {
+    display: flex;
+    margin-top: 25px;
+    flex-wrap: wrap;
+    gap: 200px;
+
+}
+
+.left-intro {
+    margin-top: 40px;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    margin-left: 100px;
+    gap: 15px;
+}
+
+.headline {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.under-headline {
+    font-size: 18px;
+}
+
+
+.container2 {
+    background-color: white
+}
+
+.big-boy {
+      margin-top: 150px;
+      gap: 20px;
+}
+
+.facilities {
+    font-size: 32px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+}
+ .service-cards {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+ }
+
+ .info1, .info2, .info3, .info4 {
+    width: 160px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px #3882f6;
+ }
+
+ .info1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+ }
+
+.container3 {
+    background-color: #e5e7eb;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    align-items: center;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: light italic;
+    width: 900px;
+}
+
+.from {
+    font-size: 24px;
+    color: #1F2937;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 700px;
+}
+
+.chef-word {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    background-color: #3882f6;
+    padding: 30px;
+    gap: 100px;
+    max-width: 900px;
+
+}
+
+.contact {
+    margin-left: 400px;
+}
+
+.words1 {
+    font-size: 30px;
+    width: 500px;
+    font-weight: 700;
+}
+
+.words2 {
+    font-size: 20px;
+}
+
+.words1, .words2 {
+    color: #e5e7eb;
+}
+
+.contact {
+    gap: 50px;
+}
+
+.sign-up {
+    display: flex;
+    align-self: center;
+    margin-right: 400px;
+    
+}
+
+button {
+    color: white;
+    background-color: #3882f6;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    justify-content: center;
+    margin-top: 200px;
+}
